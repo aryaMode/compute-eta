@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Compute ETA</string>
+    <array name="SpeedUnits">
+        <item>TeraBytes/sec</item>
+        <item>TeraBits/sec</item>
+        <item>GigaBytes/sec</item>
+        <item>GigaBits/sec</item>
+        <item>MegaBytes/sec</item>
+        <item>MegaBits/sec</item>
+        <item>KiloBytes/sec</item>
+        <item>KiloBits/sec</item>
+        <item>Bytes/sec</item>
+        <item>Bits/sec</item>
+    </array>
+    <array name="SizeUnits">
+        <item>TeraBytes</item>
+        <item>GigaBytes</item>
+        <item>MegaBytes</item>
+        <item>KiloBytes</item>
+        <item>Bytes</item>
+    </array>
+    <array name="DownloadedUnits">
+        <item>Percent</item>
+        <item>TeraBytes</item>
+        <item>GigaBytes</item>
+        <item>MegaBytes</item>
+        <item>KiloBytes</item>
+        <item>Bytes</item>
+    </array>
+</resources>

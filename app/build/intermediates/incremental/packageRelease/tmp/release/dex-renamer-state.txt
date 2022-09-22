@@ -1,0 +1,4 @@
+#Thu Jan 31 00:29:06 IST 2019
+base.0=C\:\\Users\\adhra\\AndroidStudioProjects\\CoumputeETA\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

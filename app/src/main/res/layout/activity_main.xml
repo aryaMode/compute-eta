@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uzumakiHaxorus.computeETA.MainActivity">
+
+    <EditText
+        android:id="@+id/txtSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Speed"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:paddingLeft="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:background="@drawable/rounded_et"
+        android:inputType="numberDecimal"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSpeed"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="15sp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/rounded_et"
+        android:layout_marginLeft="10sp"
+        android:ems="10"
+        android:hint="Size"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:inputType="numberDecimal"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtDownloaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSize"
+        android:paddingLeft="15sp"
+        android:background="@drawable/rounded_et"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:ems="10"
+        android:hint="Already Downloaded"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:inputType="numberDecimal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="@drawable/rounded_sp"
+        android:layout_below="@+id/txtDownloaded"
+        android:layout_marginTop="42dp"
+        android:textSize="20dp"
+        android:textColor="#F7CBCA"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:hint="Answer"
+        android:textColorHint="#FFF"
+        android:paddingLeft="15sp"
+        />
+
+    <Spinner
+        android:id="@+id/spnSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtSize"
+        android:layout_marginEnd="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignTop="@+id/txtSpeed"
+        android:layout_alignStart="@+id/spnSize"
+        android:layout_alignLeft="@+id/txtSpeed"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/rounded_sp"
+        />
+    <Spinner
+        android:id="@+id/spnSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="@+id/txtSize"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_alignTop="@+id/txtSize"
+        android:layout_marginEnd="10sp"
+        android:layout_marginRight="10sp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/rounded_sp"
+        />
+
+    <Spinner
+        android:id="@+id/spnDownloaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignStart="@+id/spnSize"
+        android:layout_alignLeft="@+id/txtDownloaded"
+        android:layout_alignTop="@+id/txtDownloaded"
+        android:layout_alignBottom="@+id/txtDownloaded"
+        android:background="@drawable/rounded_sp"
+        android:spinnerMode="dropdown"
+
+        />
+
+</RelativeLayout>
